@@ -1,0 +1,8 @@
+# metadata
+name: hello
+active: true
+respond: hello
+format_output: "what's up?" # message to send to your user when they say hello
+direct_message_only: false
+help_text: hello
+include_in_help: true

@@ -1,0 +1,8 @@
+# local dev
+.envrc
+
+# editors
+.idea
+*.swp
+*.swo
+*~
