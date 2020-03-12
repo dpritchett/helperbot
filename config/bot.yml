@@ -8,3 +8,5 @@ debug: true
 
 slack_events_callback_path: ${SLACK_EVENTS_CALLBACK_PATH} # EDIT  ${SLACK_EVENTS_CALLBACK_PATH} (e.g. /slack_events/v1/events)
 slack_interactions_callback_path: ${SLACK_INTERACTIONS_CALLBACK_PATH} # EDIT ${SLACK_INTERACTIONS_CALLBACK_PATH} (e.g. /slack_events/v1/interactions)
+
+slack_listener_port: ${PORT}
