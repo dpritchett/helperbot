@@ -1,0 +1,22 @@
+# metadata
+#
+name: test ruby 
+active: true
+
+# respond to "@helperbot test ruby"
+respond: test ruby
+
+direct_message_only: false
+
+help_text: test ruby
+include_in_help: true
+
+# STDOUT as described at https://target.github.io/flottbot-docs/rules/variables/
+format_output: "${_exec_output}"
+
+actions:
+  - name: test ruby script
+    type: exec
+    # one-line ruby script that prints the current ruby version
+    cmd: ruby config/scripts/hello-ruby.rb
+    timeout: 30

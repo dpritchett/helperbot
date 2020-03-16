@@ -1,8 +1,0 @@
-build:
-  docker:
-    web: target/flottbot:latest
-
-run:
-  web:
-    image: web
-
